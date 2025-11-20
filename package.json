@@ -1,0 +1,17 @@
+{
+  "name": "bridge",
+  "version": "1.0.0",
+  "description": "Good IP logger",
+  "main": "api/index.ts",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "ua-parser-js": "^1.0.37"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@vercel/node": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}
